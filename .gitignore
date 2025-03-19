@@ -1,0 +1,11 @@
+# Ignore all PNG, GIF, and MP4 files
+*.png
+*.gif
+*.mp4
+
+# But allow these files if they're in the public folder or any subfolder of public
+!/public/**/*.png
+!/public/**/*.gif
+!/public/**/*.mp4
+
+.DS_Store
