@@ -217,6 +217,6 @@ if __name__ == '__main__':
     # x, y = square_trajectory()
     # x, y = butterfly_trajectory()
     x, y = sample_svg('xi.svg')
-    for i in range(48, 64):
+    for i in range(4, 64):
         CIRCLE_N = i
         render_plot(x, y)
